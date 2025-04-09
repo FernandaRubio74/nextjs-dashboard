@@ -1,5 +1,5 @@
 import '@/app/ui/global.css';
-import { montserrat } from './ui/font';
+import { lusitana} from '@/app/ui/font';
 
  
 export default function RootLayout({
@@ -9,7 +9,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${montserrat.className} antialiased`}>{children}</body>
+      <body className={`${lusitana.className} antialiased`}>{children}</body>
     </html>
   );
 }
