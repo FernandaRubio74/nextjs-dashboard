@@ -1,5 +1,5 @@
 import '@/app/ui/global.css';
-import { lusitana} from '@/app/ui/font';
+import { lusitana} from '@/app/ui/fonts';
 
  
 export default function RootLayout({
